@@ -1,3 +1,3 @@
 # Clock
 
-A Digital Clock Using JS. 
+A Digital Clock Using HTML CSS and JS. 
