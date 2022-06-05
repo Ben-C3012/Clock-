@@ -30,3 +30,10 @@ body {
 h2 {
     margin-top: 23px;
 }
+
+@media(max-width: 850px) {
+    body {
+        font-size: 10px;
+    
+    }
+}
