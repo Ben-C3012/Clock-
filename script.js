@@ -9,13 +9,6 @@ const dayOfWeek = document.querySelector('.day')
 const dayOfMonth = document.querySelector('.number')
 const monthString = document.querySelector('.month')
 
-
-
-
-// console.log(hour , min);
-
-
-
 setInterval(() => {
 
     // Today 
@@ -42,15 +35,7 @@ setInterval(() => {
     dayOfWeek.textContent = dateArr[0] 
     monthString.textContent = dateArr[1]
 
-
-
-
-
-
 }, 1000);
-
 
 const now = new Date()
 const dateArr = now.toDateString().split(' ')
-console.log(dateArr);
-
